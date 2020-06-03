@@ -19,7 +19,7 @@ class Decrement extends Component{
   render(){
     return <div>
     <h1>Decrement: </h1>
-    <p id ="currentNum">Current Number is:   {this.state.currentNum}</p>
+    <p>Current Number is:   {this.state.currentNum}</p>
     <button onClick={this.decreNum}>Decrement</button>
     </div>
   }
